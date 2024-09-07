@@ -1,0 +1,9 @@
+<suite name="Data driver suite" parallel="classes" thread-count="5">
+    <test name="Data driver test">
+        <classes>
+            <parameter name="parameterName" value="newParameterValue"/>
+            <class name="dz_16.BookerAPITests"/>
+        </classes>
+    </test>
+
+</suite>
